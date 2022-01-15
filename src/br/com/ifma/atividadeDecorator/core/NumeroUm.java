@@ -20,9 +20,9 @@ public class NumeroUm {
             System.out.println("Não foi possível tratar valor passado no construtor");
         }
 
-        FormatadorDecorator formatador = new FormataComChavesDecorator(
+        FormatadorDecorator formatador = new FormataComParenteseDecorator(
                 new FormataComColchetesDecorator(
-                        new FormataComParenteseDecorator(
+                        new FormataComChavesDecorator(
                                 new FormataBaseDecorator()
                         )
                 )

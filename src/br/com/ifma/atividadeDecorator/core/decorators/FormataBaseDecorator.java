@@ -8,6 +8,6 @@ public class FormataBaseDecorator implements Formatador {
     }
 
     private String formataBase(String data) {
-        return String.format("Impresso: %s", data);
+        return String.format("Problema - \"%s\"", data);
     }
 }
